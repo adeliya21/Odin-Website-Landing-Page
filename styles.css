@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* --------------------- header container flex layout -----------------------------*/
+
 .header {
     display: flex;
     justify-content: space-between; /* divide logo and links to right and left sides */
@@ -40,4 +42,53 @@ li {
 a {
     text-decoration: none; /* removes underline of links */
     padding: 8px;
+}
+
+/* ----------------------- sign-up container flex layout ----------------------------*/
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed purple;
+    gap: 50px;
+}
+
+.text-and-button {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px dashed purple;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed purple;
+}
+
+.title {
+    border: 1px dashed purple;
+}
+
+.sub-text {
+    border: 1px dashed purple;
+}
+
+button {
+    margin: 20px;
+}
+
+.image {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px dashed purple;
+}
+
+.change-size-img {
+    width: 200px;
+    height: auto;
 }
