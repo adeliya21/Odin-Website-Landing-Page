@@ -28,7 +28,7 @@ ul {
     justify-content: space-around;
     gap: 24px;
     border: 1px dashed purple; 
-    list-style-type: none; /* this removes the dots on the list items*/
+    list-style-type: none; /* this removes the dots on the list items */
     padding: 0; /* uls have some default margin/padding that you need to deal with */
     margin: 0;
 }
@@ -38,6 +38,6 @@ li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* removes underline of links */
     padding: 8px;
 }
