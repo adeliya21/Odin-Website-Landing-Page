@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between; /* divide logo and links to right and left sides */
+    align-items: center; /* align logo nad links on one level vertically */
+    border: 1px dashed purple;
+
+    padding: 20px 0; /* make header container more spacious */
+}
+
+.logo {
+    padding: 4px 32px; /* make logo container more spacious */
+    border: 1px dashed purple;
+}
+
+.links {
+    border: 1px dashed purple;
+    padding: 4px 32px; /* make links container more spacious */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    border: 1px dashed purple; 
+    list-style-type: none; /* this removes the dots on the list items*/
+    padding: 0; /* uls have some default margin/padding that you need to deal with */
+    margin: 0;
+}
+
+li {
+    border: 1px dashed purple;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+}
