@@ -6,6 +6,7 @@
 
 /* --------------------- header container flex layout -----------------------------*/
 
+
 .header {
     display: flex;
     justify-content: space-between; /* divide logo and links to right and left sides */
@@ -13,6 +14,8 @@
     border: 1px dashed purple;
 
     padding: 20px 0; /* make header container more spacious */
+
+    margin: 20px 50px;
 }
 
 .logo {
@@ -52,6 +55,8 @@ a {
     align-items: center;
     border: 1px dashed purple;
     gap: 50px;
+
+    margin: 20px 50px;
 }
 
 .text-and-button {
