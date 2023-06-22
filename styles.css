@@ -192,12 +192,26 @@ a {
 }
 
 .button {
-    width: 90px;
+    width: 120px;
     height: auto;
     padding: 10px;
+    border-radius: 10px; /* rounder corners */
     border: 1px dashed purple;
 }
 
 .button.finish {
     flex: 0 0 auto;
+}
+
+/* --------------------- finish container flex layout -----------------------------*/
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed purple;
+}
+
+.footer {
+    margin: 20px 50px;
+    border: 1px dashed purple;
 }
