@@ -155,6 +155,7 @@ a {
 }
 
 .quote {
+    width: 920px;
     margin: 20px 50px;
     border: 1px dashed purple;
 }
@@ -166,4 +167,37 @@ a {
 .author {
     text-align: end;
     border: 1px dashed purple;
+}
+
+/* --------------------- finish container flex layout -----------------------------*/
+
+.finish-container {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed purple;
+}
+
+.finish {
+    width: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    border: 1px dashed purple;
+}
+
+.text-finish {
+    flex: 3;
+    border: 1px dashed purple;
+}
+
+.button {
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    border: 1px dashed purple;
+}
+
+.button.finish {
+    flex: 0 0 auto;
 }
