@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Hero", sans-serif;
 }
 
 /* --------------------- header container flex layout -----------------------------*/
 
 .header-container {
+    background-color: #1f2937;
     border: 1px dashed purple;
 }
 
@@ -15,10 +17,14 @@
     justify-content: space-between; /* divide logo and links to right and left sides */
     align-items: center; /* align logo and links on one level vertically */
     margin: 20px 50px;
+    
     border: 1px dashed purple;
 }
 
 .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
     border: 1px dashed purple;
 }
 
@@ -41,6 +47,8 @@ li {
 }
 
 a {
+    color: white;
+    font-size: 18px;
     text-decoration: none; /* removes underline of links */
     padding: 0px;
 }
@@ -195,7 +203,7 @@ a {
     width: 120px;
     height: auto;
     padding: 10px;
-    border-radius: 10px; /* rounder corners */
+    border-radius: 10px; /* rounder corners: also can do 50%; top-left, top-right, bottom-right, and bottom-left corners, respectively */
     border: 1px dashed purple;
 }
 
@@ -203,7 +211,7 @@ a {
     flex: 0 0 auto;
 }
 
-/* --------------------- finish container flex layout -----------------------------*/
+/* --------------------- footer container flex layout -----------------------------*/
 
 .footer-container {
     display: flex;
