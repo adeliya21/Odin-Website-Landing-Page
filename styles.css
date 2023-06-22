@@ -68,7 +68,7 @@ a {
 }
 
 .text-and-button {
-    width: 700px;
+    /*width: 700px;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -104,17 +104,19 @@ div .button-configuration {
     padding: 8px;
     border-radius: 10px; /* rounder corners: also can do 50%; top-left, top-right, bottom-right, and bottom-left corners, respectively */
     font-size: 16px;
-    border: 1px dashed purple;
+    /*border: 1px dashed purple;*/
 }
 
 .button-start {
     background-color: #3882f6;
     color: white;
+    border: 1px dashed purple;
 }
 
 .main-image {
     width: 700px;
     display: flex;
+    flex: 1;
     justify-content: center;
     border: 1px dashed purple;
 }
@@ -129,7 +131,7 @@ div .button-configuration {
 .content-container {
     text-align: center; /* note no flex layout applied here, the default block layout is kept, only the text-alignment is changed */
     background-color: white;
-    order: 1px dashed purple;
+    border: 1px dashed purple;
 } 
 
 .content {
@@ -212,14 +214,24 @@ div .button-configuration {
 .finish-container {
     display: flex;
     justify-content: center;
+    background-color: white;
+    border: 1px dashed purple;
+}
+
+.finish-bg-color {
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
     border: 1px dashed purple;
 }
 
 .finish {
-    width: 920px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 70px;
     margin: 20px 50px;
     border: 1px dashed purple;
 }
@@ -229,10 +241,22 @@ div .button-configuration {
     border: 1px dashed purple;
 }
 
+.bold-text-finish {
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+}
 
+.sub-text-finish {
+    color: #e5e6eb;
+    font-size: 18px;
+}
 
-.button-finish {
+div .button-finish {
     flex: 0 0 auto;
+    background-color: #3882f6;
+    color: white;  
+    border-color: white; 
 }
 
 /* --------------------- footer container flex layout -----------------------------*/
