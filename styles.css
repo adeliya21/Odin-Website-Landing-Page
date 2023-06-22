@@ -6,7 +6,7 @@
 
 /* --------------------- header container flex layout -----------------------------*/
 
-.header-border-container {
+.header-container {
     border: 1px dashed purple;
 }
 
@@ -14,11 +14,9 @@
     display: flex;
     justify-content: space-between; /* divide logo and links to right and left sides */
     align-items: center; /* align logo nad links on one level vertically */
-    border: 1px dashed purple;
-
     padding: 20px 0; /* make header container more spacious */
-
     margin: 20px 50px;
+    border: 1px dashed purple;
 }
 
 .logo {
@@ -33,10 +31,10 @@ ul {
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    border: 1px dashed purple; 
     list-style-type: none; /* this removes the dots on the list items */
     padding: 0; /* uls have some default margin/padding that you need to deal with */
     margin: 0;
+    border: 1px dashed purple;
 }
 
 li {
@@ -50,7 +48,7 @@ a {
 
 /* ----------------------- sign-up container flex layout ----------------------------*/
 
-.sign-up-border-container {
+.sign-up-container {
     border: 1px dashed purple;
 }
 
@@ -58,9 +56,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dashed purple;
-
     margin: 20px 50px;
+    border: 1px dashed purple;
 }
 
 .text-and-button {
@@ -69,16 +66,16 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    border: 1px dashed purple;
     gap: 20px;
+    border: 1px dashed purple;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    border: 1px dashed purple;
     gap: 20px;
     padding-right: 20px;
+    border: 1px dashed purple;
 }
 
 .title {
@@ -89,14 +86,65 @@ a {
     border: 1px dashed purple;
 }
 
-.image {
+.main-image {
     width: 700px;
     display: flex;
     justify-content: center;
     border: 1px dashed purple;
 }
 
-.change-size-img {
+.change-main-img-size {
     width: 200px;
     height: auto;
+}
+
+/* ----------------------- content container flex layout ----------------------------*/
+
+.content-container {
+    text-align: center; /* note no flex layout applied here, the default block layout is kept, only the text-alignment is changed */
+    order: 1px dashed purple;
+} 
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    border: 1px dashed purple;   
+}
+
+.information {
+    padding: 20px;
+    border: 1px dashed purple;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    border: 1px dashed purple;   
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border: 1px dashed purple;
+}
+
+.change-content-img-size {
+    width: 200px;
+    height: auto;
+    border: 1px dashed purple;
+}
+
+.img-subtext { 
+    width: 200px;
+    border: 1px dashed purple;
 }
