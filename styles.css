@@ -128,6 +128,7 @@ div .button-configuration {
 
 .content-container {
     text-align: center; /* note no flex layout applied here, the default block layout is kept, only the text-alignment is changed */
+    background-color: white;
     order: 1px dashed purple;
 } 
 
@@ -142,6 +143,9 @@ div .button-configuration {
 .information {
     padding: 20px;
     border: 1px dashed purple;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900px;
 }
 
 .items-container {
@@ -171,6 +175,7 @@ div .button-configuration {
 
 .img-subtext { 
     width: 200px;
+    font-size: 18px;
     border: 1px dashed purple;
 }
 
