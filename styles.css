@@ -13,8 +13,7 @@
 .header {
     display: flex;
     justify-content: space-between; /* divide logo and links to right and left sides */
-    align-items: center; /* align logo nad links on one level vertically */
-    padding: 20px 0; /* make header container more spacious */
+    align-items: center; /* align logo and links on one level vertically */
     margin: 20px 50px;
     border: 1px dashed purple;
 }
@@ -55,7 +54,6 @@ a {
 .sign-up {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 20px 50px;
     border: 1px dashed purple;
 }
@@ -109,7 +107,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin: 20px 50px;
     border: 1px dashed purple;   
 }
@@ -146,5 +143,27 @@ a {
 
 .img-subtext { 
     width: 200px;
+    border: 1px dashed purple;
+}
+
+/* --------------------- quote container flex layout -----------------------------*/
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed purple;
+}
+
+.quote {
+    margin: 20px 50px;
+    border: 1px dashed purple;
+}
+
+.sentence {
+    border: 1px dashed purple;
+}
+
+.author {
+    text-align: end;
     border: 1px dashed purple;
 }
