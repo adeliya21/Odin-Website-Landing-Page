@@ -5,7 +5,7 @@
     font-family: "Hero", sans-serif;
 }
 
-/* --------------------- header container flex layout -----------------------------*/
+/* --------------------- header container -----------------------------*/
 
 .header-container {
     background-color: #1f2937;
@@ -53,7 +53,7 @@ a {
     padding: 0px;
 }
 
-/* ----------------------- sign-up container flex layout ----------------------------*/
+/* ----------------------- sign-up container ----------------------------*/
 
 .sign-up-container {
     background-color: #1f2937;
@@ -126,7 +126,7 @@ div .button-configuration {
     height: auto;
 }
 
-/* ----------------------- content container flex layout ----------------------------*/
+/* ----------------------- content container ----------------------------*/
 
 .content-container {
     text-align: center; /* note no flex layout applied here, the default block layout is kept, only the text-alignment is changed */
@@ -181,7 +181,7 @@ div .button-configuration {
     border: 1px dashed purple;
 }
 
-/* --------------------- quote container flex layout -----------------------------*/
+/* --------------------- quote container -----------------------------*/
 
 .quote-container {
     display: flex;
@@ -209,7 +209,7 @@ div .button-configuration {
     border: 1px dashed purple;
 }
 
-/* --------------------- finish container flex layout -----------------------------*/
+/* --------------------- finish container -----------------------------*/
 
 .finish-container {
     display: flex;
@@ -259,7 +259,7 @@ div .button-finish {
     border-color: white; 
 }
 
-/* --------------------- footer container flex layout -----------------------------*/
+/* --------------------- footer container -----------------------------*/
 
 .footer-container {
     display: flex;
